@@ -1,0 +1,26 @@
+.btn,
+.nav :hover {
+  border-radius: 0px;
+}
+.jumbotron{
+  /* background-color: white; */
+  padding-bottom: 0%;
+  background-color: black;
+}
+h2{
+  padding-top: 20px;
+  color: green;
+}
+
+body {
+  /* background: #343a40; */
+  /* background: white; */
+  background: black;
+}
+
+footer {
+  position: absolute;
+  /* bottom: 0px; */
+  right: 0px;
+  left: 0px;
+}

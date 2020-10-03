@@ -1,0 +1,68 @@
+/* @import '~antd/dist/antd.css'; */
+@import '~antd/dist/antd.dark.css';
+
+.menu {
+  padding-top: 10px;
+  height: 70px;
+  /* border-bottom: solid 1px #e8e8e8; */
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+  /* background-color: rgb(133, 91, 133); */
+  background-color: rgb(3, 3, 24)
+}
+
+.menu__logo {
+  padding: 8px 10px 5px 10px;
+  margin-top: -8px;
+  width: 80px;
+  float: left;
+}
+
+.menu__logo a {
+  display: inline-block;
+}
+
+.herebutton {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none !important; /* use of important to overwrite ant-btn */
+  background: black;
+}
+
+@media (max-width: 767px) {
+  .herebutton {
+    display: inline-block !important;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+  }
+  .nav{
+    display: none;
+  }
+  .menu__logo a{
+    padding: 10px 10px;
+    margin-left: 0px;
+  } 
+  .menu__logo{
+    padding-bottom: 5px;
+  }
+  .menu_drawer{
+    height: 250px;
+  }
+  .space{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+.nav{
+  border-radius: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.nav-link {
+  color: black;
+  font-family: monospace;
+}
